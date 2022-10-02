@@ -1,0 +1,30 @@
+.cover__link {
+  padding: 33px 16px;
+
+  z-index: 2;
+
+  grid-area: data;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  color: inherit;
+  text-decoration: none;
+
+  background-color: rgba(42, 44, 47, .3);
+
+  transition: background-color .2s ease;
+}
+
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
+
+@media (min-width: 768px) {
+  .cover__link {
+    gap: 32px;
+  }
+}

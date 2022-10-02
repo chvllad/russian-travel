@@ -1,0 +1,7 @@
+.header__langs {
+  grid-area: lang;
+
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 18px;
+}

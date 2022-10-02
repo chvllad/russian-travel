@@ -1,0 +1,16 @@
+.place__text {
+  --font-size: 16px;
+
+  grid-area: text;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 25px;
+
+  font: 400 var(--font-size)/163% "Inter", sans-serif;
+}
+
+@media (min-width: 1024px) {
+  .place__text {
+    --font-size: 18px;
+  }
+}

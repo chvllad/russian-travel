@@ -1,0 +1,17 @@
+.places {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 50px;
+}
+
+@media (min-width: 768px) {
+  .places {
+    gap: 73px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+    gap: 80px;
+  }
+}

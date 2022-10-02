@@ -1,0 +1,17 @@
+.intro {
+  --data-width: 1fr;
+  display: grid;
+  grid-template:
+    "title"
+    "." 40px
+    "text"
+    "." 34px
+    "list" / var(--data-width);
+}
+
+
+@media (min-width: 928px) {
+  .intro {
+    --data-width: 690px;
+  }
+}

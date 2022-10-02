@@ -1,0 +1,7 @@
+.lead__caption {
+  grid-area: caption;
+
+  font: 400 10px/14px "Inter", sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}

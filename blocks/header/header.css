@@ -1,0 +1,22 @@
+.header {
+  --font-size: 18px;
+  --line-height: 20px;
+  --lang-margin: 8px;
+
+  display: grid;
+  grid-template:
+    "logo . lang" min-content
+    "logo . ." var(--lang-margin)
+    / min-content 1fr max-content;
+  align-items: end;
+
+  font: 400 var(--font-size)/var(--line-height) "Inter", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .header {
+    --font-size: 24px;
+    --line-height: 28px;
+    --lang-margin: 6px;
+  }
+}

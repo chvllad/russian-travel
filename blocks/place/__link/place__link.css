@@ -1,0 +1,6 @@
+.place__link {
+  grid-area: link;
+
+  font: 400 18px/22px "Inter", sans-serif;
+  text-decoration-line: underline;
+}

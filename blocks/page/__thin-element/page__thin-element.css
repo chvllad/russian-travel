@@ -1,0 +1,12 @@
+.page__thin-element {
+  width: 100%;
+  max-width: 928px;
+
+  justify-self: center;
+}
+
+@media (min-width: 1024px) {
+  .page__thin-element {
+    max-width: 984px;
+  }
+}

@@ -1,0 +1,10 @@
+.lead__map {
+  margin: 0 auto;
+  padding-top: 9.17%;
+
+  width: 95%;
+  height: auto;
+  z-index: 2;
+
+  grid-area: data;
+}
