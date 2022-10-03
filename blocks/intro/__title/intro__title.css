@@ -1,15 +1,14 @@
 .intro__title {
-  --font-size: 32px;
-  --line-height: 35px;
+  margin: 0;
 
   grid-area: title;
 
-  font: 900 var(--font-size)/var(--line-height) "Inter", sans-serif;
+  font: 900 32px/35px "Inter", sans-serif;
 }
 
 @media (min-width: 768px) {
   .intro__title {
-    --font-size: 54px;
-    --line-height: 58px;
+    font-size: 54px;
+    line-height: 58px;
   }
 }

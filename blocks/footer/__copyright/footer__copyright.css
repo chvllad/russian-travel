@@ -1,13 +1,10 @@
 .footer__copyright {
-  --font-size: 14px;
-  --line-height: 14px;
-
-  font: 400 var(--font-size)/var(--line-height) "Inter", sans-serif;
+  font: 400 14px/14px "Inter", sans-serif;
 }
 
 @media (min-width: 768px) {
   .footer__copyright {
-    --font-size: 14px;
-    --line-height: 16px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }

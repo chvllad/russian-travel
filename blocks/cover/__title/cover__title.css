@@ -1,28 +1,35 @@
 .cover__title {
-  --font-size: 32px;
-  --line-height: 35px;
+  margin: 0;
 
-  font: 900 var(--font-size)/var(--line-height) "Inter", sans-serif;
+  max-width: 288px;
+
+  font: 900 32px/35px "Inter", sans-serif;
   text-align: center;
 }
 
 @media (min-width: 384px) {
   .cover__title {
-    --font-size: 36px;
-    --line-height: 38px;
+    max-width: 300px;
+
+    font-size: 36px;
+    line-height: 38px;
   }
 }
 
 @media (min-width: 576px) {
   .cover__title {
-    --font-size: 54px;
-    --line-height: 57px;
+    max-width: 400px;
+
+    font-size: 54px;
+    line-height: 57px;
   }
 }
 
 @media (min-width: 768px) {
   .cover__title {
-    --font-size: 72px;
-    --line-height: 76px;
+    max-width: 560px;
+
+    font-size: 72px;
+    line-height: 76px;
   }
 }

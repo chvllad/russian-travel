@@ -15,28 +15,12 @@
 
 @media (min-width: 768px) {
   .place {
-    --img-width: 340px;
-    --table-gap: 28px;
     grid-template:
       "title . url" 1fr
       "title . ." 12px
       "title . link"
       ". . ." 48px
       "img . text"
-      / var(--img-width) var(--table-gap) 1fr;
-  }
-}
-
-@media (min-width: 1024px) {
-  .place {
-    --img-width: 440px;
-    --table-gap: 32px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .place {
-    --img-width: 460px;
-    --table-gap: 40px;
+      / var(--place-img-width) var(--place-table-gap) 1fr;
   }
 }

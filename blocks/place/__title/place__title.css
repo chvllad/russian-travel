@@ -1,22 +1,21 @@
 .place__title {
-  --font-size: 32px;
-  --line-height: 35px;
+  margin: 0;
 
   grid-area: title;
 
-  font: 900 var(--font-size)/var(--line-height) "Inter", sans-serif;
+  font: 900 32px/35px "Inter", sans-serif;
 }
 
 @media (min-width: 768px) {
   .place__title {
-    --font-size: 42px;
-    --line-height: 46px;
+    font-size: 42px;
+    line-height: 46px;
   }
 }
 
 @media (min-width: 1024px) {
   .place__title {
-    --font-size: 72px;
-    --line-height: 76px;
+    font-size: 72px;
+    line-height: 76px;
   }
 }

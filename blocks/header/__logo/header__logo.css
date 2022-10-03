@@ -4,7 +4,7 @@
 
   grid-area: logo;
 
-  background-image: url('../../../images/logo_small.svg');
+  background-image: url('../../../images/logo.svg');
   background-size: contain;
 }
 
@@ -12,7 +12,5 @@
   .header__logo {
     width: 176px;
     height: 52px;
-
-    background-image: url('../../../images/logo_large.svg');
   }
 }

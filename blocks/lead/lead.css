@@ -1,37 +1,9 @@
 .lead {
-  --space-title: 16px;
-  --space-subtitle: 40px;
-  --space-left-caption: 16px;
-
   display: grid;
   grid-template:
-    "title title"
-    ". ." var(--space-title)
-    "subtitle subtitle"
-    ". ." var(--space-subtitle)
-    "image image"
-    ". ." 8px
-    ". caption" / var(--space-left-caption) 1fr;
-}
-
-@media (min-width: 768px) {
-  .lead {
-    --space-title: 32px;
-    --space-subtitle: 56px;
-    --space-left-caption: var(--space-horizontal);
-  }
-}
-
-@media (min-width: 928px) {
-  .lead {
-    --space-left-caption: calc(var(--space-horizontal) - ((100vw - 928px) / 2));
-  }
-}
-
-@media (min-width: 1024px) {
-  .lead {
-    --space-title: 32px;
-    --space-subtitle: 64px;
-    --space-left-caption: 0px;
-  }
+    "title"
+    "." var(--lead-title-space)
+    "subtitle"
+    "." var(--lead-subtitle-space)
+    "image";
 }
