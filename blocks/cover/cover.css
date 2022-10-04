@@ -2,13 +2,15 @@
   position: relative;
   width: 100%;
   max-width: 1184px;
-  height: calc(100vw / 1.6);
+  min-height: calc(100vw / 1.6);
+
+  display: flex;
 }
 
 
 @media (min-width: 1184px) {
   .cover {
-    height: 740px;
+    min-height: 740px;
   }
 }
 
@@ -21,7 +23,7 @@
 
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: -1;
 
   background-image: url('../../images/cover/320w@1x.jpg');
   background-size: cover;
