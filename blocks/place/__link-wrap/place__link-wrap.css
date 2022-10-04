@@ -1,0 +1,5 @@
+.place__link-wrap {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+}

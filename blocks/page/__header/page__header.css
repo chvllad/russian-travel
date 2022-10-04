@@ -1,3 +1,4 @@
 .page__header {
-  grid-area: header;
+  margin-left: var(--page-horizontal-margin);
+  margin-right: var(--page-horizontal-margin);
 }

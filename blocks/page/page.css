@@ -3,23 +3,6 @@
   padding: 16px 0 24px 0;
   max-width: 1280px;
 
-  display: grid;
-  grid-template:
-    ". header ."
-    ". . ." var(--page-head-space)
-    var(--page-lead-template)
-    ". . ." var(--page-vertical-space)
-    ". intro ."
-    ". . ." var(--page-vertical-space)
-    ". photo-grid ."
-    ". . ." var(--page-vertical-space)
-    var(--page-places-template)
-    ". . ." var(--page-places-space)
-    "cover cover cover"
-    ". . ." var(--page-vertical-space)
-    ". footer ."
-    / var(--page-horizontal-margin) 1fr var(--page-horizontal-margin);
-
   font-family: 'Inter', sans-serif;
   color: #fff;
 

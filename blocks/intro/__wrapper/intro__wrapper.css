@@ -1,0 +1,5 @@
+@media (min-width: 928px) {
+  .intro__wrapper {
+    max-width: 690px;
+  }
+}

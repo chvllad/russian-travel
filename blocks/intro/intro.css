@@ -1,9 +1,2 @@
 .intro {
-  display: grid;
-  grid-template:
-    "title"
-    "." 40px
-    "text"
-    "." 34px
-    "list" / var(--intro-data-width);
 }

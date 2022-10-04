@@ -1,10 +1,7 @@
 .lead__subtitle {
-  margin: 0;
+  margin: var(--lead-title-space) auto 0 auto;
 
   max-width: 288px;
-
-  grid-area: subtitle;
-  justify-self: center;
 
   font: 400 16px/20px "Inter", sans-serif;
   text-align: center;

@@ -1,9 +1,6 @@
 .header {
-  display: grid;
-  grid-template:
-    "logo . lang" min-content
-    "logo . ." var(--header-lang-margin)
-    / min-content 1fr max-content;
+  display: flex;
+  justify-content: space-between;
   align-items: end;
 
   font: 400 18px/20px "Inter", sans-serif;

@@ -1,0 +1,17 @@
+.place__title-wrap {
+  margin: 0 var(--page-horizontal-margin);
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .place__title-wrap {
+    margin: 0;
+
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    gap: var(--place-table-gap);
+  }
+}

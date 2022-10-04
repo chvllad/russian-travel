@@ -1,9 +1,6 @@
 .place__url {
   margin: 0;
 
-  grid-area: url;
-  align-self: end;
-
   font: 400 12px/12px "Inter", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;

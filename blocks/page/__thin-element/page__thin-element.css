@@ -1,12 +1,33 @@
 .page__thin-element {
-  width: 100%;
   max-width: 928px;
+}
 
-  justify-self: center;
+@media (min-width: 928px) {
+  .page__thin-element {
+    margin-left: calc(var(--page-horizontal-margin) - var(--caption-text-left));
+    margin-right: calc(var(--page-horizontal-margin) - var(--caption-text-left));
+  }
 }
 
 @media (min-width: 1024px) {
   .page__thin-element {
     max-width: 984px;
+    margin-left: var(--page-horizontal-margin);
+    margin-right: var(--page-horizontal-margin);
+  }
+}
+
+@media (min-width: 1080px) {
+  .page__thin-element {
+    max-width: 984px;
+    margin-left: calc((100vw - 984px) / 2);
+    margin-right: calc((100vw - 984px) / 2);
+  }
+}
+
+@media (min-width: 1280px) {
+  .page__thin-element {
+    margin-left: 148px;
+    margin-right: 148px;
   }
 }

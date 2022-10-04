@@ -1,6 +1,4 @@
 .place__img {
-  width: 100%;
+  width: var(--place-img-width);
   height: auto;
-
-  grid-area: img;
 }

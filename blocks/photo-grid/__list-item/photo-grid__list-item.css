@@ -1,0 +1,22 @@
+.photo-grid__list-item {
+  width: 100%;
+}
+
+
+@media (min-width: 532px) { /* 2*260+12 */
+  .photo-grid__list-item {
+    width: calc((100% - var(--photo-grid-gap)) / 2);
+  }
+}
+
+@media (min-width: 812px) { /* 3*260+16*2 */
+  .photo-grid__list-item {
+    width: calc((100% - 2 * var(--photo-grid-gap)) / 3);
+  }
+}
+
+@media (min-width: 1088px) { /* 4*260+16*3 */
+  .photo-grid__list-item {
+    width: calc((100% - 3 * var(--photo-grid-gap)) / 4);
+  }
+}

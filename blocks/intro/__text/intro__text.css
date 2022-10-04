@@ -1,7 +1,5 @@
 .intro__text {
-  margin: 0;
-
-  grid-area: text;
+  margin: 40px 0 0 0;
 
   font: 400 16px/163% "Inter", sans-serif;
 }

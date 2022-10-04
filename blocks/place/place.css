@@ -1,26 +1,11 @@
 .place {
-  display: grid;
-  grid-template:
-    ". title ."
-    ". . ." 32px
-    ". url ."
-    ". . ." 12px
-    ". link ."
-    ". . ." 32px
-    "img img img"
-    ". . ." 32px
-    ". text ."
-    / 16px 1fr 16px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 32px;
 }
 
 @media (min-width: 768px) {
   .place {
-    grid-template:
-      "title . url" 1fr
-      "title . ." 12px
-      "title . link"
-      ". . ." 48px
-      "img . text"
-      / var(--place-img-width) var(--place-table-gap) 1fr;
+    gap: 48px;
   }
 }

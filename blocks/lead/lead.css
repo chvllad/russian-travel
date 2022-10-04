@@ -1,9 +1,0 @@
-.lead {
-  display: grid;
-  grid-template:
-    "title"
-    "." var(--lead-title-space)
-    "subtitle"
-    "." var(--lead-subtitle-space)
-    "image";
-}

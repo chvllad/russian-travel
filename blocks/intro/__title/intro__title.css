@@ -1,8 +1,6 @@
 .intro__title {
   margin: 0;
 
-  grid-area: title;
-
   font: 900 32px/35px "Inter", sans-serif;
 }
 

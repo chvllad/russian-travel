@@ -1,3 +1,11 @@
 .page__places {
-  grid-area: places;
+  margin: var(--page-vertical-space) 0 0 0;
+}
+
+
+@media (min-width: 768px) {
+  .page__places {
+    padding: 0 var(--page-horizontal-margin);
+    margin: var(--page-vertical-space) auto 0 auto;
+  }
 }

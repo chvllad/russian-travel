@@ -1,3 +1,4 @@
 .page__intro {
-  grid-area: intro;
+  margin-top: var(--page-vertical-space);
+  padding: 0 var(--caption-text-left);
 }

@@ -4,14 +4,7 @@
 
   list-style: none;
 
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(195px, auto));
-  gap: 12px;
-}
-
-@media (min-width: 768px) {
-  .photo-grid__list {
-    gap: 16px;
-  }
+  display: flex;
+  flex-flow: row wrap;
+  gap: var(--photo-grid-gap);
 }

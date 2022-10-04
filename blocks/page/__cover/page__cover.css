@@ -1,7 +1,3 @@
 .page__cover {
-  width: 100%;
-  max-width: 1184px;
-
-  grid-area: cover;
-  justify-self: center;
+  margin: var(--page-places-space) auto 0 auto;
 }

@@ -1,10 +1,17 @@
 .place__text {
-  grid-area: text;
+  margin: 0 var(--page-horizontal-margin);
+
   display: flex;
   flex-flow: column nowrap;
   gap: 25px;
 
   font: 400 16px/163% "Inter", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .place__text {
+    margin: 0;
+  }
 }
 
 @media (min-width: 1024px) {

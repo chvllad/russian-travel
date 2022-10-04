@@ -1,8 +1,6 @@
 .lead__title {
   margin: 0;
 
-  grid-area: title;
-
   font: 900 40px/44px "Inter", sans-serif;
   text-align: center;
 }

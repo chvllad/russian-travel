@@ -3,8 +3,6 @@
   --page-vertical-space: 64px;
   --page-head-space: 48px;
   --page-places-space: 66px;
-  --page-places-template: "places places places";
-  --page-lead-template: "lead lead lead";
 
   --header-lang-margin: 8px;
 
@@ -12,7 +10,7 @@
   --lead-subtitle-space: 40px;
   --caption-text-left: var(--page-horizontal-margin);
 
-  --intro-data-width: 100%;
+  --photo-grid-gap: 12px;
 
   --place-img-width: 100%;
   --place-table-gap: 0px;
@@ -23,12 +21,13 @@
     --page-horizontal-margin: calc(24px + ((100vw - 768px) / 10.66));
     --page-vertical-space: 88px;
     --page-places-space: 90px;
-    --page-places-template: ". places .";
 
     --header-lang-margin: 6px;
 
     --lead-title-space: 32px;
     --lead-subtitle-space: 56px;
+
+    --photo-grid-gap: 16px;
 
     --place-img-width: 340px;
     --place-table-gap: 28px;
@@ -38,8 +37,6 @@
 @media (min-width: 928px) {
   :root {
     --caption-text-left: calc(var(--page-horizontal-margin) - ((100vw - 928px) / 2));
-
-    --intro-data-width: 690px;
   }
 }
 
@@ -48,7 +45,6 @@
     --page-horizontal-margin: 48px;
     --page-vertical-space: 92px;
     --page-places-space: 92px;
-    --page-lead-template: ". lead .";
 
     --caption-text-left: 0px;
 

@@ -1,25 +1,21 @@
 .lead__figure {
-  margin: 0;
-
-  grid-area: image;
-
-  display: grid;
-  grid-template:
-    "img img"
-    ". ." 8px
-    ". caption"
-    / var(--caption-text-left) 1fr;
+  margin: var(--lead-subtitle-space) 0 0 0;
+  position: relative;
+  padding-top: calc(100% / 1.6);
 }
 
 .lead__figure::before {
   content: '';
 
-  padding-bottom: calc(100% / 1.6);
+  position: absolute;
+  top: 0;
+  left: 0;
 
-  height: auto;
+  display: block;
+
+  width: 100%;
+  height: calc(100% - 22px);
   z-index: 1;
-
-  grid-area: img;
 
   background-image: url('../../../images/mapbg/320w@1x.jpg');
   background-size: cover;

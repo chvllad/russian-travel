@@ -1,0 +1,12 @@
+.place__content-wrap {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .place__content-wrap {
+    flex-flow: row nowrap;
+    gap: var(--place-table-gap);
+  }
+}
