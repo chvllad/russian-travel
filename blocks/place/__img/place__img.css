@@ -1,4 +1,6 @@
 .place__img {
   width: var(--place-img-width);
   height: auto;
+
+  align-self: flex-start;
 }
